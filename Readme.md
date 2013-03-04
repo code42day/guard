@@ -26,6 +26,18 @@ You can initialize the counter when creating a new guard.
     g.off();
     g.off(); // prints 'Done...'
 
+
+In addition to `done` callback you can setup callbacks when counter reaches a certain value during
+`on` or `off`
+
+    g = guard()
+      .onCallback(100, function() {
+        // called when internal counter is 100 after increment
+      })
+      .offCallback(10, function() {
+        // called when internal counter is 10 after decrement
+      });
+
 ## License
 
 MIT

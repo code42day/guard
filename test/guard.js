@@ -53,4 +53,35 @@ describe('guard', function() {
     x = 4;
     g.off();
   });
+
+  it ('should trigger on/off callbacks', function() {
+    var x, g;
+
+    function fn1() {
+      x = 'on';
+    }
+
+    function fn2() {
+      x = 'off';
+    }
+
+    g = guard().onCallback(3, fn1).offCallback(1, fn2);
+
+    g.on(); // 1
+    assert.equal(x, undefined);
+    g.on(); // 2
+    assert.equal(x, undefined);
+    g.on(); // 3
+    assert.equal(x, 'on');
+
+    g.off(); // 2
+    assert.equal(x, 'on');
+    g.off(); // 1
+    assert.equal(x, 'off');
+
+    g.on(); // 2
+    assert.equal(x, 'off');
+    g.on(); // 3
+    assert.equal(x, 'on');
+  });
 });
