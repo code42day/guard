@@ -1,4 +1,7 @@
-# guard [![Build Status](https://secure.travis-ci.org/code42day/guard.png)](http://travis-ci.org/code42day/guard)
+[![Build Status](https://secure.travis-ci.org/code42day/guard.png)](http://travis-ci.org/code42day/guard)
+[![NPM version](https://badge.fury.io/js/guard.png)](http://badge.fury.io/js/guard)
+
+# guard 
 
 Trivial guard: triggers callback when internal counter reaches 0.
 
