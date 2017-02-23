@@ -11,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/code42day/guard.git"
+    "url": "git://github.com/pirxpilot/guard.git"
   },
   "keywords": [
     "async"
   ],
   "author": {
     "name": "Damian Krzeminski",
-    "email": "pirxpilot@code42day.com"
+    "email": "pirxpilot@furkot.com"
   },
   "license": "MIT",
   "devDependencies": {

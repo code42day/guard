@@ -1,4 +1,4 @@
-[![Build Status](https://secure.travis-ci.org/code42day/guard.png)](http://travis-ci.org/code42day/guard)
+[![Build Status](https://secure.travis-ci.org/pirxpilot/guard.png)](http://travis-ci.org/pirxpilot/guard)
 [![NPM version](https://badge.fury.io/js/guard.png)](http://badge.fury.io/js/guard)
 
 # guard 
