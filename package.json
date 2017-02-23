@@ -1,6 +1,6 @@
 {
   "name": "guard",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Trivial guard: triggers callback when internal counter reaches 0.",
   "main": "lib/guard.js",
   "directories": {
